@@ -1,0 +1,39 @@
+{
+  "name": "my-frontend-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint --fix",
+    "translations:generate": "i18n-generator --defaultLocale en --srcDir src --i18nFilesRegex **/i18n.json --interpolationStart '{{ ' --interpolationEnd ' }}' --missingKey MISSING_KEY --outputPath src/translations --locales ro en"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.18",
+    "@chakra-ui/react": "^2.5.5",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@ts-phoenix/core": "^1.0.0-alpha.0",
+    "@ts-phoenix/event-manager": "^1.0.0-alpha.0",
+    "@ts-phoenix/logger": "^1.0.0-alpha.0",
+    "@ts-phoenix/react-di": "^1.0.0-alpha.0",
+    "@ts-phoenix/react-i18n": "^1.0.0-alpha.0",
+    "@ts-phoenix/i18n-generator": "^1.0.0-alpha.0",
+    "@ts-phoenix/react-provider": "^1.0.0-alpha.0",
+    "@types/node": "18.15.11",
+    "@types/react": "18.0.35",
+    "@types/react-dom": "18.0.11",
+    "eslint": "8.38.0",
+    "eslint-config-next": "13.3.0",
+    "framer-motion": "^10.12.2",
+    "next": "13.2.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.59.0",
+    "eslint-plugin-unused-imports": "^2.0.0"
+  }
+}

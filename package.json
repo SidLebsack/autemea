@@ -1,0 +1,22 @@
+{
+  "name": "autemea",
+  "scripts": {
+    "compile": "lerna run compile",
+    "compile:clear": "lerna run compile:clear",
+    "build": "lerna run build",
+    "bootstrap": "lerna bootstrap"
+  },
+  "dependencies": {
+    "lerna": "^6.6.1"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "author": "BrentSchaden",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SidLebsack/autemea.git"
+  },
+  "homepage": "https://github.com/SidLebsack/autemea.git",
+  "version": "1.0.0"
+}
